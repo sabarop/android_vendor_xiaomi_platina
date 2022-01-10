@@ -668,7 +668,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
-    libantradio \
     CneApp \
     IWlanService \
     TimeService \
