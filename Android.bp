@@ -5,13 +5,3 @@
 soong_namespace {
 }
 
-android_app_import {
-	name: "FingerprintExtensionService",
-	owner: "xiaomi",
-	apk: "proprietary/app/FingerprintExtensionService/FingerprintExtensionService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
