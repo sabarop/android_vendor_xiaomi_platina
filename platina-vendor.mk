@@ -74,7 +74,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/platina/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/xiaomi/platina/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/platina/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-camera.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-high.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-map.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-nolimits.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-pubgmhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-pubgmhd.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-sgame.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660.conf \
     vendor/xiaomi/platina/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
     vendor/xiaomi/platina/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
     vendor/xiaomi/platina/proprietary/vendor/firmware/a512_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b02 \
