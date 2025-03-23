@@ -394,7 +394,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_atmel_at24c32e_eeprom \
     libmmcamera_bokeh \
     libmmcamera_csidtg \
-    libmmcamera_dbg \
     libmmcamera_depth_map \
     libmmcamera_dummyalgo \
     libmmcamera_dw9761b_2d_eeprom \
