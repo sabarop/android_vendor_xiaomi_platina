@@ -76,11 +76,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libFaceGrade \
     libMegviiFacepp-0.5.2 \
-    libMiCameraHal \
     libSNPE \
-    libVDClearShot \
-    libVDSuperPhotoAPI \
-    libXMFD_AgeGender \
     lib_lowlight \
     libactuator_platina_dw9714_ofilm \
     libactuator_platina_dw9714_sunny \
@@ -373,7 +369,6 @@ PRODUCT_PACKAGES += \
     libjpegehw \
     libmegface \
     libmibokeh_660 \
-    libmm-qcamera \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
     libmmcamera2_frame_algorithm \
@@ -549,8 +544,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_tintless_bg_pca_algo \
     libmmcamera_truly_cma481_eeprom \
     libmmcamera_truly_cmb433_eeprom \
-    libmmcamera_tuning \
-    libmmcamera_tuning_lookup \
     libmmjpeg \
     libmmqjpeg_codec \
     libmmqjpegdma \
