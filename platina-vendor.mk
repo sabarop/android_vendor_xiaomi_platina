@@ -62,6 +62,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/platina/proprietary/vendor/etc/qdcm_calib_data_csot_fhd_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_csot_fhd_video_dsi_panel.xml \
     vendor/xiaomi/platina/proprietary/vendor/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml \
     vendor/xiaomi/platina/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-camera.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-high.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-high.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-map.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-nolimits.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-pubgmhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-pubgmhd.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660-sgame.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine-sdm660.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm660.conf \
+    vendor/xiaomi/platina/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/platina/proprietary/vendor/etc/tianma_fhd_video_dsi_panel_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tianma_fhd_video_dsi_panel_mi.xml \
     vendor/xiaomi/platina/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/platina/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
