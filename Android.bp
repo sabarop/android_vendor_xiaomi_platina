@@ -61,10 +61,10 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libMiCameraHal.so"],
+			shared_libs: ["libpiex_shim", "libFaceGrade", "libmpbase", "libarcsoft_beautyshot", "libarcsoft_supernight", "libarcsoft_high_dynamic_range", "libcamera_scene", "libSNPE", "libsymphony-cpu", "libsymphonypower", "libc++_shared", "libmorphohht4.0", "libVDSuperPhotoAPI", "liblog", "libutils", "libcutils", "libft2vendor", "libjpeg", "libpng", "libdng_sdk", "libpiex", "libnativewindow", "libEGL", "libGLESv2", "libz", "libexpat", "libmibokeh_660", "libXMFD_AgeGender", "libVDClearShot", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
-	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
