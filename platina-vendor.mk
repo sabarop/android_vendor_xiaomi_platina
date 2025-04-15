@@ -568,6 +568,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
+    libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
     libmorphohht4.0 \
