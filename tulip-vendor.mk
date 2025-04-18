@@ -165,7 +165,6 @@ PRODUCT_PACKAGES += \
     libCB \
     libOpenCL \
     libQSEEComAPI \
-    libRSDriver_adreno \
     libUBWC \
     libadreno_utils \
     libadsp_default_listener \
@@ -199,6 +198,7 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
     libqseed3 \
     libsdedrm \
@@ -209,9 +209,9 @@ PRODUCT_PACKAGES += \
     libsensor1 \
     libsensor_reg \
     libstreamparser \
-    libsubsystem_control \
     libsysmon_cdsp_skel \
     libtinyxml2_1 \
+    libvideoutils \
     sensors.ssc \
     camera.sdm660 \
     libI420colorconvert \
@@ -761,10 +761,11 @@ PRODUCT_PACKAGES += \
     libsmwrapper \
     libsymphony-cpu \
     libsymphonypower \
-    libvideoutils \
     libvidhance \
     libvidhance_gyro \
     libvqzip \
+    libwfdcommonutils_proprietary \
+    libwfdmmservice \
     libasphere \
     libqcbassboost \
     libqcreverb \
@@ -863,6 +864,7 @@ PRODUCT_PACKAGES += \
     libsettings \
     libslimclient \
     libssd \
+    libsubsystem_control \
     libsystem_health_mon \
     libthermalclient \
     libthermalfeature \
@@ -966,7 +968,6 @@ PRODUCT_PACKAGES += \
     libscveBlobDescriptor_skel \
     libscveObjectSegmentation_skel \
     libscveT2T_skel \
-    libantradio \
     com.qualcomm.qti.ant@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
     fm_helium \
@@ -975,6 +976,7 @@ PRODUCT_PACKAGES += \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
+    libantradio \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \

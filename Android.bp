@@ -424,27 +424,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libRSDriver_adreno",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libRSDriver_adreno.so"],
-			shared_libs: ["libRS_internal", "libRSCpuRef", "liblog", "libEGL", "libGLESv1_CM", "libGLESv2", "libnativewindow", "librs_adreno", "libbcinfo", "libdl", "libc++", "libc", "libm", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libRSDriver_adreno.so"],
-			shared_libs: ["libRS_internal", "libRSCpuRef", "liblog", "libEGL", "libGLESv1_CM", "libGLESv2", "libnativewindow", "librs_adreno", "libbcinfo", "libdl", "libc++", "libc", "libm", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libUBWC",
 	owner: "xiaomi",
 	strip: {
@@ -1138,6 +1117,27 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libqmi_legacy",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libqmi_legacy.so"],
+			shared_libs: ["libcutils", "libqmi_client_qmux", "libdiag", "libdsutils", "libqmiservices", "libidl", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libqmi_legacy.so"],
+			shared_libs: ["libcutils", "libqmi_client_qmux", "libdiag", "libdsutils", "libqmiservices", "libidl", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libqmiservices",
 	owner: "xiaomi",
 	strip: {
@@ -1348,27 +1348,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsubsystem_control",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsubsystem_control.so"],
-			shared_libs: ["libcutils", "liblog", "libqmi_cci", "libqmi_common_so", "libmdmdetect", "libperipheral_client", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsubsystem_control.so"],
-			shared_libs: ["libcutils", "liblog", "libqmi_cci", "libqmi_common_so", "libmdmdetect", "libperipheral_client", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libsysmon_cdsp_skel",
 	owner: "xiaomi",
 	strip: {
@@ -1403,6 +1382,27 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtinyxml2_1.so"],
 			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvideoutils",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvideoutils.so"],
+			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvideoutils.so"],
+			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -10749,23 +10749,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libvideoutils",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libvideoutils.so"],
-			shared_libs: ["libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "32",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libvidhance",
 	owner: "xiaomi",
 	strip: {
@@ -10809,6 +10792,40 @@ cc_prebuilt_library_shared {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libvqzip.so"],
 			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwfdcommonutils_proprietary",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwfdcommonutils_proprietary.so"],
+			shared_libs: ["libmmosal_proprietary", "liblog", "libutils", "libcutils", "libion", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwfdmmservice",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwfdmmservice.so"],
+			shared_libs: ["libmmosal_proprietary", "liblog", "libutils", "libcutils", "libbinder", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -12503,6 +12520,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libsubsystem_control",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsubsystem_control.so"],
+			shared_libs: ["libcutils", "liblog", "libqmi_cci", "libqmi_common_so", "libmdmdetect", "libperipheral_client", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libsystem_health_mon",
 	owner: "xiaomi",
 	strip: {
@@ -14134,27 +14168,6 @@ prebuilt_rfsa {
 }
 
 cc_prebuilt_library_shared {
-	name: "libantradio",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/libantradio.so"],
-			shared_libs: ["libnativehelper", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "com.qualcomm.qti.ant@1.0", "android.hardware.bluetooth@1.0", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/libantradio.so"],
-			shared_libs: ["libnativehelper", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "com.qualcomm.qti.ant@1.0", "android.hardware.bluetooth@1.0", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "com.qualcomm.qti.ant@1.0",
 	owner: "xiaomi",
 	strip: {
@@ -14283,6 +14296,23 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/lib-imsvtutils.so"],
 			shared_libs: ["libutils", "libcutils", "liblog", "libdiag_system", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libantradio",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system_ext/lib64/libantradio.so"],
+			shared_libs: ["libnativehelper", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "com.qualcomm.qti.ant@1.0", "android.hardware.bluetooth@1.0", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
