@@ -12639,7 +12639,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so"],
-			shared_libs: ["libutils", "libcutils", "liblzma", "libc", "libc++", "libbase", "libdl", "libhardware", "libprotobuf-cpp-lite", "libcrypto", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "android.hardware.keymaster@3.0", "libvendor.goodix.hardware.fingerprint@1.0", "libgf_hal", "libgf_ca", "libQSEEComAPI", "libm", ],
+			shared_libs: ["libutils", "libcutils", "liblzma", "libc", "libc++", "libbase", "libdl", "libhardware", "libprotobuf-cpp-lite-vendorcompat", "libcrypto", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "android.hardware.keymaster@3.0", "libvendor.goodix.hardware.fingerprint@1.0", "libgf_hal", "libgf_ca", "libQSEEComAPI", "libm", ],
 		},
 	},
 	compile_multilib: "64",
@@ -12707,7 +12707,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libwvhidl.so"],
-			shared_libs: ["libcrypto_shim", "android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hidl.memory@1.0", "libbase", "libhidlbase", "libhidlmemory", "libhidltransport", "libhwbinder", "liblog", "libprotobuf-cpp-lite", "libutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcrypto_shim", "android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hidl.memory@1.0", "libbase", "libhidlbase", "libhidlmemory", "libhidltransport", "libhwbinder", "liblog", "libprotobuf-cpp-lite-vendorcompat", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
