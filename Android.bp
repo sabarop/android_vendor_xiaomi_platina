@@ -14325,7 +14325,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libantradio.so"],
-			shared_libs: ["libnativehelper", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "com.qualcomm.qti.ant@1.0_system", "android.hardware.bluetooth@1.0", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libnativehelper_shim", "libnativehelper", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "com.qualcomm.qti.ant@1.0_system", "android.hardware.bluetooth@1.0", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
