@@ -783,7 +783,6 @@ PRODUCT_PACKAGES += \
     deviceInfoServiceModule \
     android.hardware.bluetooth@1.0-impl-qti \
     com.qualcomm.qti.ant@1.0-impl \
-    consumerir.lirc.sdm660 \
     consumerir.spi.sdm660 \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
