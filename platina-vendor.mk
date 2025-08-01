@@ -97,7 +97,6 @@ PRODUCT_PACKAGES += \
     libsensor1 \
     libsensor_reg \
     sensors.ssc \
-    camera.sdm660 \
     libFaceGrade \
     libMiCameraHal \
     libSNPE \
@@ -391,7 +390,6 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper \
     libflash_pmic \
     libft2vendor \
-    libhal_dbg \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
@@ -445,7 +443,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_imx376 \
     libmmcamera_imx378 \
     libmmcamera_imx519 \
-    libmmcamera_interface \
     libmmcamera_irs1645 \
     libmmcamera_isp_abf48 \
     libmmcamera_isp_aec_bg_stats47 \
@@ -576,15 +573,12 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
-    libmmjpeg_interface \
-    libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
     libmorphohht4.0 \
     libmpbase \
     libois_bu63165 \
     libois_lc898122 \
-    libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
