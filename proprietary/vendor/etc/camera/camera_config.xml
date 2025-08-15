@@ -88,61 +88,71 @@ LensInfo : Information of the lens present in the module.
 
 <CameraConfigurationRoot>
   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>tulip_s5k5e8_ofilm_i</SensorName>
-	<EepromName>tulip_s5k5e8_ofilm_i</EepromName>
-    <ChromatixName_china>tulip_s5k5e8_ofilm_global_i_chromatix</ChromatixName_china>
-	<ChromatixName>tulip_s5k5e8_ofilm_india_i_chromatix</ChromatixName>
+    <CameraId>2</CameraId>
+    <SensorName>platina_imx576_sunny</SensorName>
+    <SensorAlias>platina_imx576_i</SensorAlias>
+    <EepromName>platina_imx576_gt24p64ba2_sunny</EepromName>
+    <ChromatixName>platina_imx576_sunny_chromatix</ChromatixName>
+    <GlobalChromatixName>platina_imx576_sunny_global_chromatix</GlobalChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
     <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x07</LaneMask>
-      <LaneAssign>0x20</LaneAssign>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.98</FocalLength>
+      <FocalLength>3.86</FocalLength>
       <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>85.0</HorizontalViewAngle>
-      <VerticalViewAngle>63.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>66.1</HorizontalViewAngle>
+      <VerticalViewAngle>52.1</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
+
   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>tulip_s5k5e8_qtech_ii</SensorName>
-	<EepromName>tulip_s5k5e8_qtech_ii</EepromName>
-    <ChromatixName_china>tulip_s5k5e8_qtech_global_ii_chromatix</ChromatixName_china>
-	<ChromatixName>tulip_s5k5e8_qtech_india_ii_chromatix</ChromatixName>
+    <CameraId>2</CameraId>
+    <SensorName>platina_imx576_ofilm</SensorName>
+    <SensorAlias>platina_imx576_ii</SensorAlias>
+    <EepromName>platina_imx576_bl24sa64_ofilm</EepromName>
+    <ChromatixName>platina_imx576_ofilm_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
     <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x07</LaneMask>
-      <LaneAssign>0x20</LaneAssign>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.98</FocalLength>
+      <FocalLength>3.86</FocalLength>
       <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>85.0</HorizontalViewAngle>
-      <VerticalViewAngle>63.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>66.1</HorizontalViewAngle>
+      <VerticalViewAngle>52.1</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>tulip_s5k2l7_ofilm_i</SensorName>
-    <ActuatorName>tulip_s5k2l7_ofilm_i_ak7374</ActuatorName>
-    <EepromName>tulip_s5k2l7_ofilm_i</EepromName>
+
+   <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>platina_imx363_sunny</SensorName>
+    <SensorAlias>platina_imx363_i</SensorAlias>
+    <EepromName>platina_imx363_gt24p64ba8_sunny</EepromName>
+    <ActuatorName>platina_dw9714_sunny</ActuatorName>
     <FlashName>pmic</FlashName>
-    <ChromatixName_china>tulip_s5k2l7_ofilm_global_i_chromatix</ChromatixName_china>
-    <ChromatixName>tulip_s5k2l7_ofilm_india_i_chromatix</ChromatixName>
+    <ChromatixName>platina_imx363_sunny_chromatix</ChromatixName>
+    <GlobalChromatixName>platina_imx363_sunny_global_chromatix</GlobalChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -155,20 +165,24 @@ LensInfo : Information of the lens present in the module.
     <LensInfo>
       <FocalLength>3.94</FocalLength>
       <FNumber>1.9</FNumber>
-      <TotalFocusDistance>2.91</TotalFocusDistance>
+      <TotalFocusDistance>2.918</TotalFocusDistance>
       <HorizontalViewAngle>70.4</HorizontalViewAngle>
       <VerticalViewAngle>55.7</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <MinFocusDistance>0.07</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>tulip_s5k2l7_qtech_ii</SensorName>
-    <ActuatorName>tulip_s5k2l7_qtech_ii_ak7374</ActuatorName>
-    <EepromName>tulip_s5k2l7_qtech_ii</EepromName>
+
+   <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>platina_imx363_ofilm</SensorName>
+    <SensorAlias>platina_imx363_ii</SensorAlias>
+    <EepromName>platina_imx363_bl24sa64_ofilm</EepromName>
+    <ActuatorName>platina_dw9714_ofilm</ActuatorName>
     <FlashName>pmic</FlashName>
-    <ChromatixName_china>tulip_s5k2l7_qtech_global_ii_chromatix</ChromatixName_china>
-    <ChromatixName>tulip_s5k2l7_qtech_india_ii_chromatix</ChromatixName>
+    <ChromatixName>platina_imx363_ofilm_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -181,106 +195,70 @@ LensInfo : Information of the lens present in the module.
     <LensInfo>
       <FocalLength>3.94</FocalLength>
       <FNumber>1.9</FNumber>
-      <TotalFocusDistance>2.91</TotalFocusDistance>
+      <TotalFocusDistance>2.918</TotalFocusDistance>
       <HorizontalViewAngle>70.4</HorizontalViewAngle>
       <VerticalViewAngle>55.7</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <MinFocusDistance>0.07</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
+
   <CameraModuleConfig>
     <CameraId>3</CameraId>
-    <SensorName>tulip_ov02a10_ofilm_ii</SensorName>
-	<EepromName>tulip_ov02a10_ofilm_ii</EepromName>
-	<ChromatixName_china>tulip_ov02a10_ofilm_global_ii_chromatix</ChromatixName_china>
-    <ChromatixName>tulip_ov02a10_ofilm_india_ii_chromatix</ChromatixName>
+    <SensorName>platina_s5k5e8_sunny</SensorName>
+    <SensorAlias>platina_s5k5e8_i</SensorAlias>
+    <EepromName>platina_s5k5e8_sunny</EepromName>
+    <ChromatixName>platina_s5k5e8_sunny_chromatix</ChromatixName>
+    <GlobalChromatixName>platina_s5k5e8_sunny_global_chromatix</GlobalChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>FRONT_AUX</Position>
-    <MountAngle>270</MountAngle>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x18</LaneMask>
-      <LaneAssign>0x3</LaneAssign>
-      <ComboMode>1</ComboMode>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
       <FocalLength>1.85</FocalLength>
       <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.85</TotalFocusDistance>
-      <HorizontalViewAngle>85.4</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>87.2</HorizontalViewAngle>
+      <VerticalViewAngle>87.2</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
+
   <CameraModuleConfig>
     <CameraId>3</CameraId>
-    <SensorName>tulip_ov02a10_sunny_i</SensorName>
-	<EepromName>tulip_ov02a10_sunny_i</EepromName>
-	<ChromatixName_china>tulip_ov02a10_sunny_global_i_chromatix</ChromatixName_china>
-    <ChromatixName>tulip_ov02a10_sunny_india_i_chromatix</ChromatixName>
+    <SensorName>platina_s5k5e8_ofilm</SensorName>
+    <SensorAlias>platina_s5k5e8_ii</SensorAlias>
+    <EepromName>platina_s5k5e8_ofilm</EepromName>
+    <ChromatixName>platina_s5k5e8_ofilm_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>FRONT_AUX</Position>
-    <MountAngle>270</MountAngle>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x18</LaneMask>
-      <LaneAssign>0x3</LaneAssign>
-      <ComboMode>1</ComboMode>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
       <FocalLength>1.85</FocalLength>
       <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.85</TotalFocusDistance>
-      <HorizontalViewAngle>85.4</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>87.2</HorizontalViewAngle>
+      <VerticalViewAngle>87.2</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>tulip_s5k3T1_sunny_i</SensorName>
-	<EepromName>tulip_s5k3T1_sunny_i</EepromName>
-	<ChromatixName_china>tulip_s5k3T1_sunny_global_i_chromatix</ChromatixName_china>
-    <ChromatixName>tulip_s5k3T1_sunny_india_i_chromatix</ChromatixName> 
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-	  <CSIDCore>2</CSIDCore>
-	  <LaneMask>0x1F</LaneMask>
-	  <LaneAssign>0x4320</LaneAssign>
-	  <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-	  <FocalLength>3.56</FocalLength>
-	  <FNumber>2.0</FNumber>
-	  <TotalFocusDistance>3.56</TotalFocusDistance>
-	  <HorizontalViewAngle>66.0</HorizontalViewAngle>
-	  <VerticalViewAngle>52.0</VerticalViewAngle>
-	  <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-    </CameraModuleConfig>
-	<CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>tulip_s5k3T1_ofilm_ii</SensorName>
-	<EepromName>tulip_s5k3T1_ofilm_ii</EepromName>
-	<ChromatixName_china>tulip_s5k3T1_ofilm_global_ii_chromatix</ChromatixName_china>
-    <ChromatixName>tulip_s5k3T1_ofilm_india_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-	  <CSIDCore>2</CSIDCore>
-	  <LaneMask>0x1F</LaneMask>
-	  <LaneAssign>0x4320</LaneAssign>
-	  <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-	  <FocalLength>3.56</FocalLength>
-	  <FNumber>2.0</FNumber>
-	  <TotalFocusDistance>3.56</TotalFocusDistance>
-	  <HorizontalViewAngle>65.0</HorizontalViewAngle>
-	  <VerticalViewAngle>50.8</VerticalViewAngle>
-	  <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-    </CameraModuleConfig>
 </CameraConfigurationRoot>
