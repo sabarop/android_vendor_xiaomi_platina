@@ -13349,6 +13349,7 @@ dex_import {
     name: "com.fingerprints.extension",
     owner: "xiaomi",
     jars: [
-        "proprietary/system/framework/com.fingerprints.extension.jar",
+        "proprietary/system_ext/framework/com.fingerprints.extension.jar",
     ],
+    system_ext_specific: true,
 }
