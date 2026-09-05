@@ -102,9 +102,13 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     audio.primary.sdm660 \
+    liba2dpoffload \
     libaudioroute_ext \
+    libhdmiedid \
+    libhfp \
     libsensor1 \
     libsensor_reg \
+    libsndmonitor \
     sensors.ssc \
     libFaceGrade \
     libMiCameraHal \
