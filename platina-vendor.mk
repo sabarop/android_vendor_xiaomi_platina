@@ -101,6 +101,8 @@ PRODUCT_PACKAGES += \
     activity_recognition.sdm660 \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
+    audio.primary.sdm660 \
+    libaudioroute_ext \
     libsensor1 \
     libsensor_reg \
     sensors.ssc \
